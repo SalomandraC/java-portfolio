@@ -1,0 +1,4 @@
+timestamp,ip,method,path,status,size
+2026-09-01T08:26:12,10.0.0.5,GET,/api/items,200,8192
+2026-09-01T08:31:55,192.168.1.22,GET,/api/orders,200,4096
+2026-09-01T08:35:07,192.168.1.11,GET,/health,200,256

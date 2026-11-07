@@ -1,0 +1,30 @@
+body {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 0 16px;
+    font-family: sans-serif;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.post form input {
+    display: inline-block;
+    width: auto;
+}
+
+.post {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.post h2 {
+    margin: 0 0 4px;
+}

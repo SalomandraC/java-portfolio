@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Блог</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+<h1>Блог</h1>
+
+<form onsubmit="createPost(event)">
+    <input name="title" placeholder="Заголовок">
+    <textarea name="content" placeholder="Текст поста"></textarea>
+    <input name="author" placeholder="Автор">
+    <button>Создать пост</button>
+</form>
+
+<div id="posts"></div>
+</body>
+</html>

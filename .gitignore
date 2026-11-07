@@ -1,0 +1,29 @@
+# Build output
+target/
+out/
+build/
+*.class
+*.jar
+!**/.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+
+# Local / runtime data
+.claude/
+tessdata/
+**/data/artifacts/
+mock_data/
+*.log
+.env
+
+# OS
+.DS_Store
+Thumbs.db
